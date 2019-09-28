@@ -34,8 +34,8 @@ npm run start
 
 ```javascript
 const $app = document.getElementById('app');
-const $observe = document.getElementById('observe'); 
-const API = 'https://rickandmortyapi.com/api/character/'; 
+const $observe = document.getElementById('observe');
+const API = 'https://rickandmortyapi.com/api/character/';
 ```
 
 Función llamada 'getData' que se encarga de hacer Fetch a una API y construye un elemento nuevo en el DOM.
@@ -43,7 +43,7 @@ Función llamada 'getData' que se encarga de hacer Fetch a una API y construye u
 ```javascript
 const getData = api => {
   fetch(api)
-    .then(response => response.json()) 
+    .then(response => response.json())
     .then(response => {
       const characters = response.results;
       let output = characters.map(character => {

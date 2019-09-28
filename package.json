@@ -1,0 +1,23 @@
+{
+  "name": "escuelajs-reto-05",
+  "version": "1.0.0",
+  "description": "Reto 5 Septiembre 28: Curso de Fundamentos de JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --open=public --entry-file=index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platzi/escuelajs-reto-05.git"
+  },
+  "keywords": [],
+  "author": "Oscar Barajas <oscar@platzi.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/platzi/escuelajs-reto-05/issues"
+  },
+  "homepage": "https://github.com/platzi/escuelajs-reto-05#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
